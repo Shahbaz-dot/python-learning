@@ -36,9 +36,6 @@ n = input("Enter number : ")
 s.add(int(n))
 
 print(s)
-# s = {} what is the type of s
-s ={}
-print(type(s))
 
 # Create a set with 5 numbers.
 s ={1, 3, 45, 76, 23}
@@ -72,7 +69,6 @@ print(a.difference(b))
 # Check if an element exists in a set.
 s ={1, 3, 45, 76, 23}
 print(1 in s)
-
 
 # Find the length of a set.
 x ={1, 3, 45, 76, 23, 7, 18}
